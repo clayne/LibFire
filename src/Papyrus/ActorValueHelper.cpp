@@ -9,7 +9,7 @@ namespace ActorValueHelper
 		switch (a_actorValue) {
 			case RE::ActorValue::kNone:
 				return "None"sv;
-			case RE::ActorValue::kAggresion:
+			case RE::ActorValue::kAggression:
 				return "Aggression"sv;
 			case RE::ActorValue::kConfidence:
 				return "Confidence"sv;
@@ -67,7 +67,7 @@ namespace ActorValueHelper
 				return "HealRate"sv;
 			case RE::ActorValue::kMagickaRate:
 				return "MagickaRate"sv;
-			case RE::ActorValue::KStaminaRate:
+			case RE::ActorValue::kStaminaRate:
 				return "StaminaRate"sv;
 			case RE::ActorValue::kSpeedMult:
 				return "SpeedMult"sv;
@@ -101,19 +101,19 @@ namespace ActorValueHelper
 				return "ResistMagic"sv;
 			case RE::ActorValue::kResistDisease:
 				return "ResistDisease"sv;
-			case RE::ActorValue::kUnknown46:
+			case RE::ActorValue::kPerceptionCondition:
 				return "PerceptionCondition"sv;
-			case RE::ActorValue::kUnknown47:
+			case RE::ActorValue::kEnduranceCondition:
 				return "EnduranceCondition"sv;
-			case RE::ActorValue::kUnknown48:
+			case RE::ActorValue::kLeftAttackCondition:
 				return "LeftAttackCondition"sv;
-			case RE::ActorValue::kUnknown49:
+			case RE::ActorValue::kRightAttackCondition:
 				return "RightAttackCondition"sv;
-			case RE::ActorValue::kUnknown50:
+			case RE::ActorValue::kLeftMobilityCondition:
 				return "LeftMobilityCondition"sv;
-			case RE::ActorValue::kUnknown51:
+			case RE::ActorValue::kRightMobilityCondition:
 				return "RightMobilityCondition"sv;
-			case RE::ActorValue::kUnknown52:
+			case RE::ActorValue::kBrainCondition:
 				return "BrainCondition"sv;
 			case RE::ActorValue::kParalysis:
 				return "Paralysis"sv;
@@ -127,8 +127,8 @@ namespace ActorValueHelper
 				return "WaterBreathing"sv;
 			case RE::ActorValue::kWaterWalking:
 				return "WaterWalking"sv;
-			case RE::ActorValue::kUnknown59:
-				return "Unknown59"sv;
+			case RE::ActorValue::kIgnoreCrippledLimbs:
+				return "IgnoreCrippledLimbs"sv;
 			case RE::ActorValue::kFame:
 				return "Fame"sv;
 			case RE::ActorValue::kInfamy:
@@ -333,7 +333,7 @@ namespace ActorValueHelper
 				return "GrabActorOffset"sv;
 			case RE::ActorValue::kGrabbed:
 				return "Grabbed"sv;
-			case RE::ActorValue::kUnknown162:
+			case RE::ActorValue::kDEPRECATED05:
 				return "DEPRECATED05"sv;
 			case RE::ActorValue::kReflectDamage:
 				return "ReflectDamage"sv;

@@ -9,7 +9,7 @@
     "rsm-binary-io",
     "commonlibsse-ng-flatrim"
   ],
-  "builtin-baseline": "934a99dc13cabb330824ae1a5ab4a53a9acc5a49",
+  "builtin-baseline": "49ac2134b31b95b0ddf29d56873dcd24392691df",
   "overrides": [
     {
       "name": "fmt",
